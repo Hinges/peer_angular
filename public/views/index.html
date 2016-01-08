@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Election Candidates</title>
+    <link rel=stylesheet href=styles/stylesheet.css>
+    <script src="scripts/vendors/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+<body ng-controller="myController">
+<h1>I am the fing President of the United States</h1>
+<p class="winner">{{presidentWinner}}</p>
+<h2>Democrat Nominee</h2>
+<p>{{democratNominee}}</p>
+<h2>Republican Nominee</h2>
+<p>{{republicanNominee}}</p>
+<button ng-click="chooseCandidate()">Vote</button>
+<button ng-click="chooseWinner()">Winner</button>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+body {
+    background-color: yellow;
+}
+
+.winner {
+    font-size: 40px;
+    color: deeppink;
+    font-weight: bolder;
+}
